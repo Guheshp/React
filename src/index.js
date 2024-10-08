@@ -8,11 +8,13 @@ import UseState from './component/UseStateExample';
 import HomePage from './component/HomePage';
 import UseMemo from './component/hooks/UseMemo';
 import ImageApi from './component/hooks/ImageApi';
+import Header from './component/Header';
 
 
 const AppLayout = () => {
   return (
-    <div >
+    <div className='bg-slate-900 h-screen w-full'>
+      <Header />
       {/* <h1>welome to home page</h1> */}
       <Outlet />
     </div>
