@@ -27,6 +27,7 @@ const HomePage = () => {
 
         // </div>
         <div className=''>
+
             <SideNavBar />
         </div>
     )
